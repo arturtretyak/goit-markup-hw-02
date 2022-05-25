@@ -126,17 +126,11 @@ body {
 /* _______________ Benefits section */
 
 .benefits-title {
+  font-size: 14px;
   font-weight: 700;
   line-height: calc(16 / 14);
   text-transform: uppercase;
   color: var(--black-color);
-}
-
-.benefits-section p {
-  font-size: 14px;
-  line-height: calc(24 / 14);
-  letter-spacing: 0.03em;
-  color: var(--gray-color);
 }
 
 /* _____________ What we do section */
@@ -173,7 +167,7 @@ body {
 
 .address {
   font-style: normal;
-  line-height: calc(24 / 14);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .address-company {
@@ -190,7 +184,7 @@ body {
   color: var(--blue-color);
 }
 
-/* _______ PORTFOLIO _______ */
+/* ____________________________ PORTFOLIO ________________ */
 /* __________________________ Menu filters buttons */
 
 .menu-filter-button {
@@ -208,7 +202,7 @@ body {
 
 .menu-button button:hover,
 .menu-button button:focus {
-  background-color: var(--blue-color);
+  background-color: #fff;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
